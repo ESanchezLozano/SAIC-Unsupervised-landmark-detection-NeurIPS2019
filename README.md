@@ -4,9 +4,7 @@ PyTorch repository.
 
 The code for both training and validation will be uploaded during October
 
-# Licence
-
-Please read the COPYING file or the bottom of this README for the licence of this code.
+# Citation
 
 ```
 @inproceedings{Sanchez2019_NeurIPS,
@@ -18,7 +16,7 @@ Please read the COPYING file or the bottom of this README for the licence of thi
 ```
 
 
-# COPYING
+# Licence
 
 This code repository is a technical property of Samsung R&D Institute UK (designated SRUK hereafter). It must not be reproduced, distributed or used without permission of SRUK.
 
