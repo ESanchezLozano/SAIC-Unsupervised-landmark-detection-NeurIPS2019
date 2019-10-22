@@ -1,6 +1,8 @@
 # [![logo](SAIC_logo_black.jpg)](https://research.samsung.com/aicenter_cambridge)
 ## Object landmark discovery through unsupervised adaptation (NeurIPS2019) [paper](https://esanchezlozano.github.io/files/NeurIPS2019.pdf)
 
+![logo](pipeline.png)
+
 [Enrique Sanchez](http://esanchezlozano.github.io), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/)
 
 PyTorch repository. Licence can be found at the bottom of this page or in the COPYING file.
