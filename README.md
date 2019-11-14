@@ -1,11 +1,19 @@
 # [![logo](SAIC_logo_black.jpg)](https://research.samsung.com/aicenter_cambridge)
-## Object landmark discovery through unsupervised adaptation (NeurIPS2019) [paper](https://esanchezlozano.github.io/files/NeurIPS2019.pdf)
+## Object landmark discovery through unsupervised adaptation (NeurIPS2019) [paper](https://papers.nips.cc/paper/9505-object-landmark-discovery-through-unsupervised-adaptation.pdf)
 
 ![logo](pipeline.png)
 
 [Enrique Sanchez](http://esanchezlozano.github.io), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/)
 
-PyTorch repository. Licence can be found at the bottom of this page or in the COPYING file.
+# License
+
+Copyright © 2019, SAMSUNG R&D Institute UK. All Rights Reserved.
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+All the material, including source code, is made freely available for non-commercial use under the Creative Commons CC BY-NC 4.0 license. Feel free to use any of the material in your own work, as long as you give us appropriate credit by mentioning the title and author list of our paper.
+
+All the third-party libraries (Python, PyTorch, Torchvision, Numpy, OpenCV, Visdom, Torchnet, GPUtil and SciPy) are owned by their respective authors, and must be used according to their respective licenses. 
 
 ## Requirements
 * Linux
@@ -71,11 +79,15 @@ python affine_all_epochs.py -f path/to/model -c checkpoint_fansoft/fan_109.oth -
 ## Citation
 
 ```
-@inproceedings{Sanchez2019_NeurIPS,
-  title={Object landmark discovery through unsupervised adaptation},
-  author={Enrique Sanchez and Georgios Tzimiropoulos},
-  booktitle={NeurIPS},
-  year={2019}
+@incollection{NIPS2019_9505,
+  title = {Object landmark discovery through unsupervised adaptation},
+  author = {Sanchez, Enrique and Tzimiropoulos, Georgios},
+  booktitle = {Advances in Neural Information Processing Systems 32},
+  editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+  pages = {13498--13509},
+  year = {2019},
+  publisher = {Curran Associates, Inc.},
+  url = {http://papers.nips.cc/paper/9505-object-landmark-discovery-through-unsupervised-adaptation.pdf}
 }
 ```
 
@@ -83,18 +95,4 @@ python affine_all_epochs.py -f path/to/model -c checkpoint_fansoft/fan_109.oth -
 
 The code has been cleaned and polished for the sake of clarity and reproducibility, and even though it has been checked thoroughly, it might contain bugs or mistakes. Please do not hesitate to open an issue or contact the authors to inform of any problem you may find with this repository. 
 
-# Licence
 
-This code repository is a technical property of Samsung R&D Institute UK (designated SRUK hereafter). It must not be reproduced, distributed or used without permission of SRUK.
-
-Copyright © 2018 - 2019 SRUK. All Rights Reserved.
-
-Though every care has been taken to ensure the accuracy of information in this repository, SRUK cannot accept responsibility for any errors or omissions or for any loss occurred to any person, whether legal or natural, from acting, or refraining from action, as a result of the information contained herein. Information in this repository is subject to change at any time without obligation to notify any person of such changes.
-
-SRUK may have patents or patent pending applications, trademarks copyrights or other intellectual property rights covering subject matter in this repository. The furnishing of this repository does not give the recipient or reader any license to these patents, trademarks copyrights or other intellectual property rights.
-
-No part of this repository may be communicated, distributed, reproduced or transmitted in any form or by any means, electronic or mechanical or otherwise, for any purpose, without the prior written permission of SRUK.
-
-The repository is subject to revision without further notice.
-
-All brand names and product names mentioned in this repository are trademarks or registered trademarks of their respective owners.
