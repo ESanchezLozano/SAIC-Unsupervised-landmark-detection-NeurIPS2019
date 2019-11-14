@@ -5,7 +5,7 @@
 
 [Enrique Sanchez](http://esanchezlozano.github.io), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/)
 
-# License
+## License
 
 Copyright © 2019, SAMSUNG R&D Institute UK. All Rights Reserved.
 
